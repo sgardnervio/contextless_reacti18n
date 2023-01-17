@@ -1,0 +1,19 @@
+{
+  "name": "contextless_i18n",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "author": "Scott Gardner",
+  "license": "MIT",
+  "devDependencies": {
+    "react-i18next": "12.1.4",
+    "yarn": "^1.22.19"
+  },
+  "packageManager": "yarn@3.3.1",
+  "scripts": {
+    "start": "yarn workspace app start",
+    "components:build": "yarn workspace foobar-components build"
+  }
+}
